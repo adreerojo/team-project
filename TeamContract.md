@@ -51,7 +51,7 @@ This contract sets out shared expectations and commitments for how our team will
     - The team will first attempt to resolve the issue privately through open discussion, involving a member of the course teaching team as       a mediator if it cannot be resolved.
     - If the issue still persists, the conflict may be resolved through a trial by combat<sup>2</sup>.
 
-<sup>2</sup><sub><sup>By mutual agreement, combat may be substituted by a game of the combatant's choosing. If both combatants choose a different game, then a coinflip shall be held to decide the method of trial.</sub></sup>
+<sup>2</sup><sub><sup>By mutual agreement, combat may be substituted by a game of the combatants' choosing. If both combatants choose a different game, then a set in each game shall be held, alternating in deuce until a winner emerges.</sub></sup>
 
 ---
 
