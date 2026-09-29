@@ -25,6 +25,10 @@ This contract sets out shared expectations and commitments for how our team will
 * What things should a teammate notify you about? (Examples: if they think they won't be able to meet a deadline, if they have to miss lecture, etc.)
 
 * Respectful and inclusive behaviour are necessary for smooth and productive communication. What are some respectful and inclusive behaviours you expect when communicating with each other during lectures, labs, or outside of class? (Examples: Actively listening to each team members ideas, giving everyone a chance to meaningfully contribute, etc.)
+Communication shall mainly be based on the CSC207 Instagram group chat. Messages are expected to be acknowledged and replied to within at most 1-2 business days. In particular, teammates are expected to notify the rest of the team at least 1 business day before an internal deadline if it cannot be met.
+Active listening, respectful conduct, and equitable<sup>1</sup> contribution is mandatory.
+
+<sup>1</sup><small>Equitable contribution: The norm of all of our contributions must be epsilon close; i.e. they must all be able to be contained within an epsilon ball.</small>
 
 ---
 
