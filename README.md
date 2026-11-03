@@ -15,9 +15,9 @@ at the end of the term.
 # Project Name
 ## Team Information
 ### Team Members
-Adrian Arrojo
-Tanish Ariyur
-Song Hyeokjae
+Adrian Arrojo  
+Tanish Ariyur  
+Song Hyeokjae  
 Jiu Lee
 
 ---
