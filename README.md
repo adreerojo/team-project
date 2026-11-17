@@ -22,17 +22,48 @@ Jiu Lee
 
 ---
 ## Project Description
-### Domain
-[Project description]
+### Domain: 
+Recreation & Competition 
+
+### Description:
+Cuble is a Daily Rubik's Cube Challenge game, providing daily scrambles for users, inspired by Wordle. Users can track their daily scramble progress, view their global rankings, and challenge friends in a range of official WCA events.
 ---
 ## User Stories
 ### User Story 1
+As a cuber, I want to solve the daily scramble (Tanish)
+
 ### User Story 2
+As a cuber, I want to view a daily leaderboard to see where I globally rank, and see the top cubers and solve times for the day. (Jiu)
 ### User Story 3
-(Add additional user stories as needed.)
----
+As a cuber, I want to be able to view my past daily scramble solve times, so I can measure my progress (Jae)
+
+### User Story 4
+As a cuber, I want to challenge a friend to an average of 5 for a WCA event of my choice, to simulate a competition setting (Adrian)
+
 ## Use Cases
-### Use Case 1
+### Use Case 1 (Tanish)
+Solve the daily scramble and save it:
+
+#### Primary Actor
+The user (player) who wants to solve the Daily Scramble
+#### Preconditions
+- The user is logged in to their Cuble account
+- The user has not yet attempted the Daily Scramble for that day
+#### Trigger
+The user clicks “Solve Daily Scramble”, prompting them to the Daily Scramble view. Then, they can see the scramble of the day, and hold the space bar for 2 seconds to begin the timer.
+#### Success Outcome
+When the user ends the timer (by clicking their spacebar while the timer is on), the scramble is deemed “solved”, and the Solve is saved to the user’s account, tracking the scramble and the time taken to solve (i.e. the Solve is recorded as soon as the timer is stopped).
+
+#### Main Success Scenario:
+    i. The user asks to solve the daily scramble
+    ii. The system checks that the user hasn’t already attempted the daily scramble
+    iii. The user is prompted to the Daily Scramble view
+    iv. The user holds the spacebar for 2 seconds to begin the solve
+    v. The system begins the timer, once the spacebar is held for 2 consecutive seconds
+    vi. The user clicks the spacebar once, while the timer is running, to stop the timer.
+    vii. The system saves the scramble, and time taken, as a Solve, for the user.
+    viii. The system displays the time taken for the user to solve today’s Daily Scramble.
+
 ### Use Case 2
 ### Use Case 3
 (Add additional use cases as needed.)
@@ -50,9 +81,10 @@ Jiu Lee
 (Add additional entities as needed.)
 ---
 ## API Usage
-**API Name:**
-**Documentation:** [Link]
-**How it is used in the program:**
+**API Name:** Scramble Web API
+**Documentation:** https://github.com/campos20/scramble-web-api
+**How it is used in the program:** TODO
+
 ---
 ## Design Diagrams
 ### UML Class Diagram
