@@ -26,7 +26,7 @@ Jiu Lee
 Recreation & Competition 
 
 ### Description:
-Cuble is a Daily Rubik's Cube Challenge game, providing daily scrambles for users, inspired by Wordle. Users can track their daily scramble progress, view their global rankings, and challenge friends in a range of official WCA events.
+Cuble is a Daily Rubik's Cube Challenge game, providing daily scrambles for users, inspired by Wordle. Users can track their daily scramble progress and view their global rankings in a range of official WCA events.
 ---
 ## User Stories
 ### User Story 1
@@ -38,7 +38,7 @@ As a cuber, I want to view a daily leaderboard to see where I globally rank, and
 As a cuber, I want to be able to view my past daily scramble solve times, so I can measure my progress (Jae)
 
 ### User Story 4
-As a cuber, I want to challenge a friend to an average of 5 for a WCA event of my choice, to simulate a competition setting (Adrian)
+As a cuber, I want to create an account and login so I can solve the daily scramble and track my solves (Adrian)
 
 ## Use Cases
 ### Use Case 1 (Tanish)
@@ -66,19 +66,41 @@ When the user ends the timer (by clicking their spacebar while the timer is on),
 
 ### Use Case 2
 ### Use Case 3
-(Add additional use cases as needed.)
+### Use Case 4 (Adrian)
+Create and account and login:
+
+#### Primary Actor
+The user (player) who wants to login
+#### Preconditions
+- The user does not have a Cuble account, or;
+- The user is not logged in to their Cuble account
+#### Trigger
+The user clicks “Create Account”, prompting them to create a username and password. Or, they select "Login" to enter their existing username and password
+#### Success Outcome
+The user is created and saved in the database, or the user is now logged in and can solve the daily scramble.
+
+#### Main Success Scenario:
+    i. The user asks to create an account and enters a username and password
+    ii. The system checks that the username does not already exist
+    iii. The system saves the user in the database
+    iv. The user is prompted to login and enters their username and password
+    v. The system obtains the users data from the database
+    vi. The user is now logged in and can solve the daily scramble
 ---
 ## Minimal Viable Product (MVP)
 | Team Member | MVP Use Case |
 |-------------|--------------|
-| Name | Use Case |
-| Name | Use Case |
-| Name | Use Case |
+| Tanish | Solve the daily scramble and save it |
+| Jiu | View the daily leaderboard |
+| Jae | View previous daily scramble solve times |
+| Adrian | Create an account and login |
 ---
 ## Entities
-### Entity 1
-### Entity 2
-(Add additional entities as needed.)
+### Cuber
+### Scramble
+### Timer
+### Solve
+### Leaderboard
 ---
 ## API Usage
 **API Name:** Scramble Web API
