@@ -34,6 +34,7 @@ As a cuber, I want to solve the daily scramble (Tanish)
 
 ### User Story 2
 As a cuber, I want to view a daily leaderboard to see where I globally rank, and see the top cubers and solve times for the day. (Jiu)
+
 ### User Story 3
 As a cuber, I want to be able to view my past daily scramble solve times, so I can measure my progress (Jae)
 
@@ -84,7 +85,29 @@ When the user is able to view the histogram/list of their previous times.
     v. If the user toggles between the histogram and list view, the corresponding view type will be displayed.
     vi. If the user applies filters, the system will update both the histogram and list view.
 
-### Use Case 3
+### Use Case 3 (Jiu)
+View the daily leaderboard, displaying top solve times from cubers for that daily scramble
+
+#### Primary Actor
+the user (cuber) who wants to check their rank and see the fastest record for the day
+#### Preconditions:
+The user is logged in to their Cuble account
+Leaderboard data is available by the selected date and the cube type
+#### Trigger 
+the user selects “view daily leaderboard”
+#### Success Outcome
+The system displays leaderboard for the selected date and cube type, showing the top 10 cubers and the user’s rank if they have a solve record.
+
+#### Main Success Scenario 
+    i. The user asks to view the Daily Leaderboard
+    ii. The system displays the leaderboard for the current day, refreshed with that day’s recorded solves
+    iii. The user selects a cube type and date to filter the leaderboard
+    iv. The system displays the top 10 cubers and their solve times matching the selected filters.
+    vi. If the user has a solve record for the selected date and cube type, the system displays their rank.
+    v. The user selects “view more” to see the next 10 cubers 
+    vi. The system displays the next 10 results. The user can repeat this to view more results.
+
+
 ### Use Case 4 (Adrian)
 Create and account and login:
 
