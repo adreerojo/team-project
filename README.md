@@ -70,7 +70,7 @@ When the user ends the timer (by clicking their spacebar while the timer is on),
     viii. The system saves the scramble, and time taken, as a Solve, for the user.
     ix. The system displays the time taken for the user to solve today’s Daily Scramble, for the selected challenge.
 
-### Use Case 2
+### Use Case 2 (Jae)
 View and query my past daily scramble times. 
 
 #### Primary Actor 
@@ -150,8 +150,8 @@ The user is created and saved in the database, or the user is now logged in and 
 ### Leaderboard
 ---
 ## API Usage
-**API Name:** Scramble Web API
-**Documentation:** https://github.com/campos20/scramble-web-api
+**API Name:** TNoodle Library - the official WCA scramble program
+**Documentation:** https://github.com/thewca/tnoodle-lib 
 **How it is used in the program:** TODO
 
 ---
