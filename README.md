@@ -65,6 +65,25 @@ When the user ends the timer (by clicking their spacebar while the timer is on),
     viii. The system displays the time taken for the user to solve today’s Daily Scramble.
 
 ### Use Case 2
+View and query my past daily scramble times. 
+
+#### Primary Actor 
+The user (player) who wants to view and query their past Daily Scramble times.
+#### Preconditions
+- The user is logged in to their Cuble account
+#### Trigger
+The user clicks "View Past Times", prompting them to the Past Times view, where they can see their previous times represented in a histogram (Scramble Time vs. Solve Date). If the user has no previous Daily Scramble times, then the histogram will have no data. The user can then click "View Histogram" or "View List" to toggle between the histogram view and the list view, where the list view shows the past times in a tabular format. In either view, the user can filter their past times by Solve Type and date range. 
+#### Success Outcome
+When the user is able to view the histogram/list of their previous times. 
+
+#### Main Success Scenario:
+    i. The user asks to view their past Daily Scrambles
+    ii. The user is prompted to the Past Times view
+    iii. The system requests this user's past daily scramble times
+    iv. The system constructs the histogram and list view, and shows the histogram in the view (hiding the table)
+    v. If the user toggles between the histogram and list view, the corresponding view type will be displayed.
+    vi. If the user applies filters, the system will update both the histogram and list view.
+
 ### Use Case 3
 (Add additional use cases as needed.)
 ---
